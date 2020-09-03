@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "Hello Cloud Native Buildpacks!")
+		fmt.Fprint(w, "Hello Kpack!")
 	})
 	http.ListenAndServe(":8080", nil)
 }
