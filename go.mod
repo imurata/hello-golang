@@ -1,3 +1,3 @@
 module github.com/making/hello-golang
 
-go 1.14
+go 1.16
