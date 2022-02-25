@@ -1,3 +1,3 @@
-module github.com/making/hello-golang
+module github.com/imurata/hello-golang
 
 go 1.16
